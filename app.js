@@ -1,6 +1,7 @@
 //setup date
 const date = (document.getElementById("date").innerHTML =
   new Date().getFullYear());
+console.log(date);
 // setup nav
 const navBtn = document.getElementById("nav-btn");
 const navbar = document.getElementById("navbar");
